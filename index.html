@@ -19,7 +19,7 @@
   <body>
     <header class="site-header">
       <nav class="navbar container" aria-label="Navigasi utama">
-        <a class="brand" href="#beranda" aria-label="EcoSpark beranda"
+        <a class="brand" href="index.html" aria-label="EcoSpark beranda"
           ><span class="brand-mark">✦</span
           ><span>Eco<span>Spark</span></span></a
         >
@@ -33,10 +33,15 @@
           ☰
         </button>
         <div class="nav-menu" id="main-menu">
-          <a href="#latar-belakang">Latar Belakang</a
-          ><a href="#aksi-nyata">Aksi Nyata</a
-          ><a href="#kalkulator">Kalkulator</a><a href="#komitmen">Komitmen</a
-          ><a href="#kuis">Kuis</a><a href="#tim">Tim Kami</a>
+          <a href="index.html" class="active">Beranda</a>
+          <a href="data.html">Data & Fakta</a>
+          <a href="aksi.html">Aksi & Rekomendasi</a>
+          <a href="#latar-belakang">Latar Belakang</a>
+          <a href="#aksi-nyata">Aksi Nyata</a>
+          <a href="#kalkulator">Kalkulator</a>
+          <a href="#komitmen">Komitmen</a>
+          <a href="#kuis">Kuis</a>
+          <a href="#tim">Tim Kami</a>
         </div>
       </nav>
     </header>
@@ -56,10 +61,10 @@
               untuk bumi besok.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#komitmen"
-                >Mulai berkomitmen <span>↗</span></a
-              ><a class="text-link" href="#latar-belakang"
-                >Kenapa ini penting? <span>↓</span></a
+              <a class="button button-primary" href="data.html"
+                >Lihat Data & Fakta <span>↗</span></a
+              ><a class="text-link" href="aksi.html"
+                >Aksi Rekomendasi <span>→</span></a
               >
             </div>
             <div class="hero-proof">
@@ -131,6 +136,22 @@
                 <small>Dengan pemakaian lebih bijak</small>
               </article>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner Penghubung ke Data & Fakta (Fase 2) -->
+      <section class="section flow-cta-banner">
+        <div class="container flow-cta-content">
+          <div class="flow-cta-copy">
+            <p class="eyebrow" style="color: var(--green-bright);"><span style="background: var(--green-bright);"></span> Riset Nyata Siswa Kelas XI</p>
+            <h2>Potret riil perilaku energi<br /><em>636 siswa di sekolah kita.</em></h2>
+            <p>
+              Dari 7 jurusan dan 18 rombel terdata, rata-rata skor mencapai 3.36 (Sangat Baik). Namun masih ada temuan kritis seperti pembatasan gawai (P04) dan keberanian menegur rekan (P09).
+            </p>
+          </div>
+          <div class="flow-cta-btn-wrap">
+            <a class="button button-bright" href="data.html">Buka Data & Fakta <span>↗</span></a>
           </div>
         </div>
       </section>
@@ -347,7 +368,7 @@
     <footer class="site-footer" id="tim">
       <div class="container footer-top">
         <div>
-          <a class="brand footer-brand" href="#beranda"
+          <a class="brand footer-brand" href="index.html"
             ><span class="brand-mark">✦</span
             ><span>Eco<span>Spark</span></span></a
           >
@@ -355,15 +376,17 @@
         </div>
         <div class="footer-links">
           <div>
-            <h4>Jelajahi</h4>
-            <a href="#latar-belakang">Latar Belakang</a
-            ><a href="#aksi-nyata">Aksi Nyata</a
-            ><a href="#kalkulator">Kalkulator</a>
+            <h4>Halaman Kampanye</h4>
+            <a href="index.html">Beranda</a>
+            <a href="data.html">Data & Fakta (Fase 2)</a>
+            <a href="aksi.html">Aksi & Rekomendasi (Fase 3)</a>
           </div>
           <div>
-            <h4>Ikuti gerakan</h4>
-            <a href="#komitmen">Papan Komitmen</a><a href="#kuis">Eco Quiz</a
-            ><a href="#tim">Tim Kami</a>
+            <h4>Jelajahi Fitur</h4>
+            <a href="#latar-belakang">Latar Belakang</a>
+            <a href="#kalkulator">Kalkulator Listrik</a>
+            <a href="#komitmen">Papan Komitmen</a>
+            <a href="#kuis">Eco Quiz</a>
           </div>
         </div>
         <div class="team-card">
@@ -373,8 +396,8 @@
         </div>
       </div>
       <div class="footer-bottom container">
-        <span>© 2024 EcoSpark Campaign</span
-        ><span>Untuk bumi yang lebih berenergi.</span>
+        <span>© 2024 EcoSpark Campaign</span>
+        <span>Untuk bumi yang lebih berenergi.</span>
       </div>
     </footer>
     <script src="script.js"></script>
